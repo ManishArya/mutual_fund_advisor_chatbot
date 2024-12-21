@@ -1,0 +1,22 @@
+{
+  "name": "mutual_fund_advisor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy": "ngrok http 8080",
+    "config": "ngrok config add-authtoken 2cWuCoK72Bd5ND8v8vjXy6zqNad_4mckpR43bMPcbNq4V6Dtk"
+  },
+  "author": "Manish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.18.2",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "nodemon": "^2.0.20"
+  }
+}
